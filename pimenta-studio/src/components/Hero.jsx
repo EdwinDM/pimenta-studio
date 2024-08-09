@@ -9,13 +9,13 @@ export const Hero = () => {
       className="w-screen h-screen flex justify-center items-center bg-bgDark1 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
-      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-5 md:pt-16 lg:pt-56 text-center">
+      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center text-center">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h3 className="text-secondaryColor text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
+          <h3 className="text-secondaryColor text-sm sm:text-base  mb-6 font-bold">
             Descubre un nuevo mundo
           </h3>
         </motion.div>
@@ -61,23 +61,6 @@ export const Hero = () => {
             </button>
           </div>
         </motion.div>
-        
-        <div className="relative w-screen flex justify-center ">
-          <div className="shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
-            <svg
-              data-name="Layer 1"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1200 120"
-              preserveAspectRatio="none"
-              className="bg-bgDark2"
-            >
-              <path
-                d="M1200 0L0 0 598.97 114.72 1200 0z"
-                className="shape-fill bg-bgDark1  fill-bgDark1"
-              ></path>
-            </svg>
-          </div>
-        </div>
       </div>
     </section>
   );
