@@ -39,9 +39,9 @@ export const Pricing = () => {
   let description;
   const numOptions = selectedOptions.length;
   if (numOptions >= 5) {
-    description = "¡Increíble, has elegido un gran número de opciones! Esto te dará un paquete completo y versátil.";
+    description = "¡Super bien, has elegido un plan completo y versatil!";
   } else if (numOptions >= 3) {
-    description = "¡Excelente, has seleccionado una buena variedad de opciones!";
+    description = "¡Excelente, un par de opciones es lo ideal!";
   } else if (numOptions >= 1) {
     description = "¡Genial, eso es perfecto para comenzar!";
   } else {
