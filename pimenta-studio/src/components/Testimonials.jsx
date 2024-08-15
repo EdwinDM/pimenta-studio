@@ -7,24 +7,24 @@ import testimonial3 from "../assets/images/testimonial3.png";
 
 const testimonialsData = [
   {
-    customerName: "Carlos Herrera",
-    customerTitle: "Dueño de Ticomotor",
+    customerName: "Rosa Ramírez",
+    customerTitle: "Dueña de Cabañas Don Ramiro",
     content:
-      "Contratar a esta empresa fue una de las mejores decisiones para mi negocio. El equipo es profesional y siempre está disponible para escuchar mis necesidades. El diseño de mi folleto y las piezas para redes sociales fueron impresionantes y me ayudaron a captar más clientes. Sin duda, seguiré trabajando con ellos.",
+      "Estoy muy satisfecha con el trabajo de la Pimenta en el desarrollo de la página web para nuestro lodge. Capturaron exactamente la esencia de nuestro negocio, creando un sitio atractivo y funcional que ha mejorado nuestra visibilidad y aumentado las reservas. La comunicación fue clara y el proceso, eficiente. Sin duda, una excelente inversión para nuestro negocio.",
     image: testimonial1,
   },
   {
-    customerName: "Mariana Torres",
-    customerTitle: "Coordinadora de Marketing",
+    customerName: "Carlos Villachica",
+    customerTitle: "Dueño de Ticosta Travels",
     content:
-      "Trabajar con este equipo fue una experiencia excelente. Entendieron perfectamente nuestra visión y la convirtieron en diseños atractivos y efectivos. La rapidez y la calidad de su trabajo son inigualables. Además, su consultoría en branding nos ayudó a fortalecer nuestra identidad corporativa. ¡Altamente recomendados!",
+      "Supieron plasmar en una identidad visual moderna y atractiva lo que a nuestra empresa nos distingue en el mercado turístico. Desde el logo hasta los materiales promocionales, todo quedó impecable y alineado con nuestra visión. Gracias a su creatividad y profesionalismo, hemos logrado destacar y conectar mejor con nuestros clientes.",
     image: testimonial2,
   },
   {
-    customerName: "Alex Valverde",
-    customerTitle: "Dueño de Ticosta Travels",
+    customerName: "Lorena Narváez",
+    customerTitle: "Dueña de PodoSalud",
     content:
-      "La atención al detalle y la creatividad del equipo superaron todas mis expectativas. El logo y la imagen de mi marca quedaron perfectos, exactamente como lo imaginaba. Además, fueron muy pacientes durante todo el proceso, asegurándose de que cada detalle estuviera a mi gusto. ¡Recomiendo sus servicios al 100%!",
+      "La atención al detalle y la creatividad del equipo superaron mis expectativas. La imagen de mi marca quedaron exactamente como lo imaginaba e integraron un sistema de reservas muy fácil de usar para nuestros pacientes. Fueron muy pacientes durante todo el proceso, asegurándose de que cada detalle estuviera a mi gusto. ¡Recomiendo sus servicios al 100%!",
     image: testimonial3,
   },
 ];

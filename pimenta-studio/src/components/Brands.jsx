@@ -27,26 +27,26 @@ export const Brands = () => (
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4 center justify-center">
-              <div className="w-1/2 sm:w-1/3 py-6 mx-3 flex justify-center">
-              <img
-                src={ticomotor.src}
-              />
-              </div>
-              <div className="w-1/2 sm:w-1/3 py-6 mx-3 flex  justify-center">
-              <img
-                src={gameplace.src}
-              />
-              </div>
-              <div className="w-1/2 sm:w-1/3 py-6  mx-3 flex  justify-center">
-              <img
-                src={ticostatravels.src}
-              />
-              </div>
-              <div className="w-1/2 sm:w-1/2 py-4  mx-3 flex justify-center">
-              <img
-                src={cabanasdonramiro.src}
-              />
-              </div>
+              <a className="w-1/2 sm:w-1/3 py-6 mx-3 flex justify-center">                
+                  <img
+                    src={ticomotor.src}
+                  />                
+              </a>
+              <a className="w-1/2 sm:w-1/3 py-6 mx-3 flex justify-center">  
+                <img
+                  src={gameplace.src}
+                />
+              </a>
+              <a className="w-1/2 sm:w-1/3 py-6 mx-3 flex justify-center" href="https://www.facebook.com/profile.php?id=100093635497298&paipv=0&eav=Afbpz_rmfqoCaFNUNckraNl19CAFDd-i4zC3GmDyUOK6k3_fYRXqSr9aGjdsVAqhr1Y" Target="_blank">  
+                <img
+                  src={ticostatravels.src}
+                />
+              </a>
+              <a className="w-3/4 sm:w-1/2 py-6 mx-3 flex justify-center" href="https://cabañasdonramiro.com" Target="_blank">  
+                <img
+                  src={cabanasdonramiro.src}
+                />
+              </a>
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ export const Features2 = () => (
               Estategias de crecimiento para tu negocio.
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Desarrollamos estrategias de marketing desde el diseño, implementación y publicaciones final de imagenes de marca, publicaciones, videos, fotografía, etc.
+              Desarrollamos estrategias de marketing desde el diseño, implementación y publicación final de imagenes de marca, videos, fotografía, etc.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
