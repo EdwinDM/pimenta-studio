@@ -90,9 +90,6 @@ export const Pricing = () => {
                     alt="Imagen del plan 1"
                     className="mx-auto mb-4"
                   />
-                  <div className="text-3xl sm:text-4xl font-bold text-primaryText text-center mt-4">
-                    Precio: ${totalPrice1}
-                  </div>
                   <p className="mt-4 mb-6 text-gray-500 leading-loose text-center">
                     {selectedOptions1.length >= 5
                       ? "¡Super bien, has elegido un plan completo y versatil!"
@@ -127,9 +124,6 @@ export const Pricing = () => {
                     alt="Imagen del plan 2"
                     className="mx-auto mb-4"
                   />
-                  <div className="text-3xl sm:text-4xl font-bold text-primaryText text-center mt-4">
-                    Precio: ${totalPrice2}
-                  </div>
                   <p className="mt-4 mb-6 text-gray-500 leading-loose text-center">
                     {selectedOptions2.length >= 5
                       ? "¡Super bien, has elegido un plan completo y versatil!"
